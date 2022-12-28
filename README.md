@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
+
+</head>
+<body>
     <style>
     img {
 -webkit-animation:spin 4s linear infinite;
@@ -37,9 +40,6 @@
 }
 
 </style>
-</head>
-<body>
-
 
 <img class="spinningAvatar-3RLDX3 imageUploaderInner-IIRaFr rotate linear infinite" src="13585_young-man-with-a-backpack-riding-a-bike-781313647.jpeg">
 
