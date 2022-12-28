@@ -10,7 +10,33 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
-    
+    <style>
+    img {
+-webkit-animation:spin 4s linear infinite;
+}
+
+.rotate {
+  animation: rotation ease 3s;
+}
+
+.linear {
+  animation-timing-function: ease;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+</style>
 </head>
 <body>
 
